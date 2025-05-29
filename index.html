@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Silly Story Generator</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+</head>
+
+<body>
+  <div class="about-container">
+    <h1>Silly <span class="highlight">Story</span> Generator</h1>
+
+
+
+    <div class="input">
+      <label for="customname">Enter custom name:</label>
+      <input type="text" id="customname">
+
+      <label>
+        <input type="radio" name="ukus" id="us" checked> US
+      </label>
+      <label>
+        <input type="radio" name="ukus" id="uk"> UK
+      </label>
+
+      <button class="randomize">Generate random story</button>
+    </div>
+
+    <p class="story"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
