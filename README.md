@@ -32,13 +32,6 @@ A fun and beginner-friendly web app that generates random, silly short stories w
 
 ---
 
-## 📸 Preview
-
-![image](https://github.com/user-attachments/assets/1ea5a9e1-1dfc-45e2-b015-1d09bf60e971)
-
-
----
-
 ## 🔧 How It Works
 
 1. User optionally enters a custom name.
@@ -46,4 +39,14 @@ A fun and beginner-friendly web app that generates random, silly short stories w
 4. JavaScript fills in placeholders in the story template using:
    - Custom name or random name
    - Random place, item, and weather condition
+     
+---
+
+## 📸 Preview
+
+![image](https://github.com/user-attachments/assets/1ea5a9e1-1dfc-45e2-b015-1d09bf60e971)
+
+
+---
+
 
